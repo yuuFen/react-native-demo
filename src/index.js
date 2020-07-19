@@ -73,5 +73,5 @@ const WelcomeSwitchNavigator = createSwitchNavigator({
   Main: tabNavigator,
 });
 
-const Navigator = createAppContainer(WelcomeSwitchNavigator);
-export default Navigator;
+const AppContainer = createAppContainer(WelcomeSwitchNavigator);
+export default AppContainer;
